@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="html5, curso">
+<meta name="author" content="Profe Full Stack Developer">
+<meta name="description" content="Curso Full Stack Developer">
+<title>Título de la página</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="main.js"></script>
+</head>
+
+<body>
+<h1>Otros nuevos elementos</h1>
+
+<h2>Etiqueta meter:</h2>
+<p>Representa datos dentro de un rango determinado.<br />
+Aunque es parecido a una barra de progreso, no debería ser utilizada para este fin.<br />
+Para barras de progresos ya existe una etiqueta llamada progress.
+</p>
+
+<meter value="2" min="0" max="10">2 out of 10</meter><br>
+<meter value="0.6">60%</meter>
+
+<h2>Etiqueta progress:</h2>
+<p>Representa una barra de progreso.<br />
+No es adecuado para representar un indicador (por ejemplo, uso de espacio en disco<br />
+o relevancia de un resultado de consulta). Para representar un indicador, es mejor usar la etiqueta meter.
+</p>
+<progress value="22" max="100"></progress>
+
+
+<h2>Etiqueta math (no compatible con Chrome):</h2>
+<p>msup: este elemento se utiliza para adjuntar un superíndice a una expresión. Utiliza la siguiente expresión donde:</p>
+<p>mi: base.</p>
+<p>mn: superíndice.</p>
+<p>mo: representa un operador.</p>
+
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+<msup><mi>a</mi><mn>2</mn></msup>
+<mo>+</mo>
+
+<msup><mi>b</mi><mn>2</mn></msup>
+<mo>=</mo>
+
+<msup><mi>c</mi><mn>2</mn></msup>
+</mrow>
+</math>
+
+</body>
+</html>

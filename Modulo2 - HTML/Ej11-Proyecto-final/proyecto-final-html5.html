@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="html5, curso">
+    <meta name="author" content="Profe Full Stack Developer">
+    <meta name="description" content="Curso Full Stack Developer">
+    <title>Título de la página</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.js"></script>
+    <!-- Se pueden personalizar los layout de nuestra página web copiando codigo en https://www.w3docs.com/learn-html/html-layout-templates.html-->
+</head>
+
+<body>
+    <header>
+        <div class="innertube">
+            <h1>Encabezado de nuestra página web</h1>
+        </div>
+    </header>
+    <div id="wrapper">
+        <main>
+            <div id="content">
+                <div class="innertube">
+                    <h1>Heading</h1>
+                    Proyecto Final Modulo 2 - Curso Full Stack Developer Valencia
+                    <section>
+                        <article>
+                            <h2>Elemento video:</h2>
+                            <p>Esta etiqueta muestra un video.</p>
+                            <video id="video" width="320" height="240" controls="controls" autoplay="autoplay"
+                                loop="loop">
+                                <source src="video/movie.mp4" type="video/mp4">
+                                <source src="video/movie.ogg" type="video/ogg">
+                                <source src="video/movie.webm" type="video/webm">
+                                <track src="video/subtitles_en.vtt" kind="subtitles" srclang="es" label="Spanish">
+                                Tu navegador no es compatible con la etiqueta vídeo.
+                            </video>
+
+                        </article>
+                        <article>
+                            <h2>Elemento audio:</h2>
+                            <audio controls="controls">
+                                <source src="audio/sound.ogg" type="audio/ogg">
+                                <source src="audio/sound.mp3" type="audio/mpeg">
+                                <source src="audio/sound.wav" type="audio/wav">
+                                Tu navegador no es compatible con la etiqueta audio.
+                            </audio>
+                        </article>
+                        <article>
+                            <h2>Elementos object y embed</h2>
+                            <object width="400" height="50" data="flash/flash-playa.swf"></object>
+                            <!--  Soportado por HTML4 y HTML5 -->
+                            <embed width="400" height="50" src="flash/flash-playa.swf"></embed>
+                            <!--  Únicamente soportado por HTML5 -->
+                        </article>
+                        <article>
+
+                            <h2>Youtube</h2>
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/x4r7af2Lcmw"></iframe>
+                        </article>
+                        <article>
+                            <h2>Google Maps</h2>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98646.95995023733!2d-0.43155093930150495!3d39.40789688890973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4cf0efb06f%3A0xb4a351011f7f1d39!2zVmFsw6huY2lh!5e0!3m2!1sca!2ses!4v1664273497918!5m2!1sca!2ses"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </article>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <nav>
+            <div class="innertube">
+                <!-- Menú -->
+                <h2>Menú principal</h2>
+                <a href="https://es.wikipedia.org/wiki/HTML" target="_Blank">HTML</a> <br /><br />
+                <a href="https://es.wikipedia.org/wiki/CSS" target="_Blank">CSS</a> <br /><br />
+                <a href="https://es.wikipedia.org/wiki/JavaScript" target="_Blank">JavaScript</a> <br /><br />
+                <a href="https://es.wikipedia.org/wiki/JQuery" target="_Blank">jQuery</a>
+
+            </div>
+        </nav>
+
+    </div>
+
+    <footer>
+        <div class="innertube">
+            <p>&copy; Curso Full Stack Developer en Valencia.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

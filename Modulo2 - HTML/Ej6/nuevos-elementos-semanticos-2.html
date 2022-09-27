@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="keywords" content="html5, curso">
+<meta name="author" content="Profe Full Stack Developer">
+<meta name="description" content="Curso Full Stack Developer">
+<title>Título de la página</title>
+<link rel="stylesheet" href="styles.css" />
+<script src="main.js"></script>
+</head>
+
+<body>
+
+<h1>
+    HTML5 - Nuevos elementos semánticos (II)
+</h1>
+
+<h2>Etiqueta details:</h2>
+<p>Especifica detalles adicionales que el usuario puede mostrar u ocultar a petición.</p>
+<details>
+<p> - Etiqueta Detalles.</p>
+<p>Sirve para especificar los detalles adicionales que el usuario puede mostrar u ocultar a petición.</p>
+</details>
+
+<h2>Etiqueta summary:</h2>
+<p>Define un encabezado visible para el elemento details. Se puede hacer clic en el
+encabezado para mostrar u ocultar los detalles.</p>
+<details>
+<summary>Copyright 2022.</summary>
+<p> - by Profe Full Stack Developer. Todos los derechos reservados.</p>
+<p>Toda la información y graficos se pueden utilizar pidiendo permiso al autor.</p>
+</details>
+
+<h2>Etiqueta figure:</h2>
+<p>Especifica contenido autónomo como ilustraciones, diagramas, fotos, listas de
+    códigos, etc.
+</p>
+<figure>
+<img src="imagen-html.jpg" alt="Foto sobre HTML" \>
+</figure>
+
+<h2>Etiqueta main:</h2>
+<p>Especifica el contenido principal de un documento.
+    El contenido dentro del elemento main debe ser exclusivo del documento y no debe
+    ser un descendiente de un elemento article, aside, footer, header o nav.
+</p>
+
+<main>
+<h1>Navegadores Web</h1>
+<p>Google Chrome, Mozilla Firefox, Microsoft EDGE, Safari, Opera, Brave.
+</p>
+
+<article>
+<h1>Google Chrome</h1>
+<p>Google Chrome es un navegador gratuito, de programario libre y desarrollado por Google,
+creado en 2008.</p>
+</article>
+
+<article>
+<h1>Internet Explorer</h1>
+<p>Internet Explorer es un navegador gratuito de Microsoft, creado en 1995.</p>
+</article>
+
+<article>
+<h1>Mozilla Firefox</h1>
+<p>Firefox es una navegador libre, de programario libre propiedad de Mozilla, creado en 2004.
+</p>
+</article>
+</main>
+
+
+<h2>Etiqueta time:</h2>
+<p>
+Define una fecha u hora legible por humanos.
+El atributo datetime permite representar fechas/horas legibles por las máquinas, de
+modo que los los motores de búsqueda pueden producir resultados de búsqueda
+más inteligentes, por ejemplo, con recordatorios para calendarios.
+</p>
+
+<p>Hoy Abrimos a las <time>15:30</time> el aula todos los días de L-V</p>
+<p>Hoy es <time datetime="2022-09-27 15:30">un dia cualquiera en el aula de formación</time>.</p>
+<p>Nota: La etiqueta Time no se renderiza como nada especial en la mayoría de navegadores.</p>
+
+</body>
+</html>
